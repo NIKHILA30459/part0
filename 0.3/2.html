@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 17%;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: black;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 100px;
+  background-color: black
+  padding: 0px;
+}
+body {
+  background-image: url('https://cdn.searchenginejournal.com/wp-content/uploads/2019/01/Top-10-Ranking-About-Us-Pages.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<center><h3>Contact Form</h3></center>
+
+<div class="container">
+  <form action="/action_page.php">
+    <center><br><label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."></br></center>
+
+   <center><br> <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Email"></br></center>
+	<center><br><label for="Email">Email</label>
+    <input type="text" id="Email" name="Email" placeholder="Email"></br></center>
+
+    <center><br><label for="country">Country</label>
+    <select id="state" name="state">
+      <option value="andhra pradesh">andhra pradesh</option>
+      <option value="telangana">telangana</option>
+      <option value="karnataka">karnataka</option>
+      <option value="kerala">kerala</option>
+      <option value="tamil nadu">tamil nadu</option>
+    </select></br></center>
+
+    <center><br><label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea></br></center>
+
+    <center><button>
+	<a href="file:///C:/Users/Hp/Desktop/thanku.html">SUBMIT</a></button></center>
+
+  </form>
+</div>
+
+</body>
+</html>
